@@ -1,0 +1,63 @@
+.top ul{
+    display: flex;
+    justify-content: space-between;
+}
+.top li{
+    list-style: none;
+}
+.top h1{
+    color: #1ce783;
+
+}
+
+.top h3{
+    color: #a8afbd;
+    padding: 10px ;
+    
+}
+.top h3:hover{
+    background-color: rgb(86, 84, 84);
+    color: white;
+    border-radius: 10%;
+}
+
+body{
+    background-image: url('https://yolandamatiwane.github.io/hostedImages/images/hulu-background.947968eed8819a505079.jpg');
+    background-size: cover;
+}
+.Bundles h4{
+    color: #1ce783;
+    font-size: larger;
+}
+.Bundles h3{
+    color: white;
+    font: 24px ;
+}
+.Bundles button{
+    background-color:#1ce783;
+    padding: 0 24px;
+    width: 300px;
+    height: 40px;
+    border-radius: 9%;
+    border: none;
+    font: 24px;
+    text-align: center;
+    cursor: pointer;
+}
+img{
+    width: 300px;
+    height: 100px;
+}
+.Bundles ul{
+    display: flex;
+    padding: auto;
+    justify-content: center;
+    width: 100%;
+    
+}
+.one{
+    margin: 0 10px 0 0;
+}
+.two{
+    margin: 0 0 0 10px;
+}
