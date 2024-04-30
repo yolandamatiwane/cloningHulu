@@ -1,63 +1,121 @@
-.top ul{
+* {
+    text-align: center;
+}
+
+.top ul {
     display: flex;
     justify-content: space-between;
 }
-.top li{
+
+.top li {
     list-style: none;
 }
-.top h1{
+
+.top h1 {
     color: #1ce783;
 
 }
 
-.top h3{
+.top h3 {
     color: #a8afbd;
-    padding: 10px ;
-    
+    padding: 10px;
+
 }
-.top h3:hover{
+
+.top h3:hover {
     background-color: rgb(86, 84, 84);
     color: white;
     border-radius: 10%;
 }
 
-body{
-    background-image: url('https://yolandamatiwane.github.io/hostedImages/images/hulu-background.947968eed8819a505079.jpg');
+body {
+    background-color: #0005;
+    background-blend-mode: darken;
+    background-image: url('https://yolandamatiwane.github.io/hostedImages/images/background-img.jpg');
     background-size: cover;
+
 }
-.Bundles h4{
+
+.bundles h4 {
     color: #1ce783;
-    font-size: larger;
+    font-size: 10px sans-serif;
+    font-weight: 600;
 }
-.Bundles h3{
+
+.bundles h2 {
     color: white;
-    font: 24px ;
+    font-size: 24px;
+    font-weight: 900;
 }
-.Bundles button{
-    background-color:#1ce783;
+
+.bundles button {
+    background-color: #1ce783;
     padding: 0 24px;
     width: 300px;
     height: 40px;
-    border-radius: 9%;
+    border-radius: 5px;
     border: none;
-    font: 24px;
+    font-size: 15px;
     text-align: center;
     cursor: pointer;
 }
-img{
-    width: 300px;
-    height: 100px;
+
+.bundles button:hover {
+    background-color: #2d9d65;
 }
-.Bundles ul{
+
+img {
+    width: 250px;
+    height: 80px;
+    vertical-align: middle;
+}
+
+.bundles>ul {
     display: flex;
-    padding: auto;
+    padding: 10px;
     justify-content: center;
     width: 100%;
-    
 }
-.one{
+
+.one {
     margin: 0 10px 0 0;
 }
-.two{
-    margin: 0 0 0 10px;
+
+.two {
+    margin: 0 0 0 5px;
+}
+
+.tcs {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    color: white;
+    text-decoration: underline;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+.sign a {
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 40px;
+   
+}
+
+.sign a:hover {
+    color: #1ce783;
+    text-decoration: underline white;
+}
+.sign~.down{
+    color: white;
+}
+
+.down button{
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border-radius: 50%;
+    border-color: white;
+    font-size: medium;
+    width: 70px;
+    height: 70px;
 }
